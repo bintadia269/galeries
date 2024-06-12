@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-size: 1.5rem;
+    overflow: hidden;
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 120vh;
+}
+.header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav .right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.dribble{
+    font-size: 30px;
+}
+nav ul li a{
+    color: #333;
+    font-size: 20px;
+}
+.login {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+}
+
+.search-bar img {
+    height: 25px;
+}
+
+/* nav .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+input{
+    height: 10px;
+    border-radius: 50px;
+    padding: 10px;
+} */
+
+.btn {
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.582);
+}
+.baniere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+}
+
+.baniere-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+span {
+    background-color: violet;
+    color: black;
+    border-radius: 55px;
+    font-size: 20px;
+    padding: 12px;
+    animation-name: change-color;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes change-color{
+    10%{
+        background-color: orange;
+    }
+    20%{
+        background-color: rgba(252, 28, 244, 0.733);
+    }
+    40%{
+        background-color: rgba(146, 146, 80);
+    }
+    50%{
+        background-color: gray;
+    }
+    100%{
+        background-color: greenyellow;
+    }
+}
+
+.baniere-content h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+p .baniere-content {
+    font-size: 23px;
+    background-color: blanchedalmond;
+}
+
+
